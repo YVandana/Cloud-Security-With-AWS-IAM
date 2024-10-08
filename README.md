@@ -45,7 +45,9 @@ IAM Policies are rules that help to deny or allow user’s /’resources’ perm
 •	Resource: The specific resource(s) in the admin(s) AWS account that this policy applies to i.e. my EC2 instances.
 3.	**The JSON IAM Policy:**
 aws-iam-project-vandana-development-policy
+<p align = "center">
  ![alt text](image-1.png)
+</p>
 
 ### ACCOUNT ALIAS
 An account alias is a custom name that can be assigned to the administrator’s AWS account. This custom name will replace the Admins account Id (identifier) in the AWS account’s log-in URL.
