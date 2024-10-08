@@ -32,7 +32,7 @@ IAM supports MFA, which adds an extra layer of security by requiring users to pr
 In this project I used AWS IAM today to create a user group for other people to join in to have access to two EC2 instances and set up specific permissions for the users/user groups.
 **Tags**
 To get information about the resources used the EC2 instances have an assigned Env (Environment) tag for both the instances. The first instance named aws-iam-project-vandana-1 has the Env tag with the value set as production. The second instance names aws-iam-project-vandana-2 has the Env tag with the value set as development.
-![alt text](image.png)
+![alt text](Assests/image-1.png)
 
 ### IAM Policies
 IAM Policies are rules that help to deny or allow user’s /’resources’ permissions to perform certain actions to my AWS Account’s Resources.
