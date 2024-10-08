@@ -33,7 +33,7 @@ In this project I used AWS IAM today to create a user group for other people to 
 **Tags**
 To get information about the resources used the EC2 instances have an assigned Env (Environment) tag for both the instances. The first instance named aws-iam-project-vandana-1 has the Env tag with the value set as production. The second instance names aws-iam-project-vandana-2 has the Env tag with the value set as development.
 <p align="center">
-![alt text](Assests/image-1.png)
+<img  src="Assests/image-1.png" alt="image" align="center">
 </p>
 
 ### IAM Policies
@@ -48,7 +48,7 @@ IAM Policies are rules that help to deny or allow user’s /’resources’ perm
 3.	**The JSON IAM Policy:**
 aws-iam-project-vandana-development-policy
 <p align = "center">
- ![alt text](Assests/image-2.png)
+<img  src="Assests/image-2.png" alt="image" align="center">
 </p>
 
 ### ACCOUNT ALIAS
@@ -56,7 +56,7 @@ An account alias is a custom name that can be assigned to the administrator’s 
 Creating the account is simple and can be accessed in the IAM dashboard.
 My new AWS console sign-in URL for this project is https://yvandana-project-alias.signin.aws.amazon.com/console 
 <p align = "center">
- ![alt text](Assests/image-3.png)
+<img  src="Assests/image-3.png" alt="image" align="center">
 </p>
 
 ### IAM USERS AND USER GROUPS
@@ -66,14 +66,14 @@ IAM users are the other log-in’s or people who have access to the admin(s) AWS
 IAM User Groups are a set of people who have access to my AWS Account’s resources according to specific polices at a group level.
 I have attached the policy that I created for a aws-iam-project-vandana-user-group for my AWS Account’s EC2 instances. All the users that are added to this user group will automatically inherit the user group’s access privileges and permissions.
 <p align = "center">
- ![alt text](Assests/image-4.png)
+<img  src="Assests/image-4.png" alt="image" align="center">
 </p>
 
 ### LOGGING IN AS AN IAM USER
 There are two ways to give access to users to my AWS Account. One way is to email the sign-in instructions and the other being to download a .csv file.
 My new user has a unique sign-in URL aws-iam-project-vandana.
 <p align = "center">
- ![alt text](Assests/image-5.png)
+<img  src="Assests/image-5.png" alt="image" align="center">
 </p>
 
 ## TESTING IAM POLICIES
@@ -85,7 +85,7 @@ This led me to the AWS log in page where I entered the following details:
 3.	Password as shown in the documentation previously.
 Once I logged in my dashboard had stark differences when compared to my regular dashboard. Some of the differences were how I could access my applications and was denied access to cost and usage as shown in the image below.
 <p align = "center">
- ![alt text](Assests/image-6.png)
+<img  src="Assests/image-6.png" alt="image" align="center">
 </p>
 
 ### STOPPING THE INSTANCES
@@ -93,14 +93,14 @@ Once I logged in my dashboard had stark differences when compared to my regular 
 I tested my JSON IAM Policy by first trying to stop the EC2 ‘production’ instance i.e. triggering the Stop Instances action which gave me an error message as intended in my policy.
 The error message explained that I am not authorized to strop the production instance.
 <p align = "center">
- ![alt text](Assests/image-7.png)
+<img  src="Assests/image-7.png" alt="image" align="center">
 </p>
 
 #### Stopping the Development Instance
 To test the IAM Policy further I tried to stop the development instance i.e. triggering the Stop Instances action which I was able to do successfully. Further adhering to my JSON IAM Policy.
 The success message explained that it had successfully initiated stopping of the development instance.
 <p align = "center">
- ![alt text](Assests/image-8.png)
+<img  src="Assests/image-8.png" alt="image" align="center">
 </p>
 
 ## CONCLUSION
