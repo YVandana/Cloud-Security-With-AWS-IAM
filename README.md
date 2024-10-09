@@ -5,8 +5,10 @@ In this project I seek to implement an AWS IAM Policy by creating two EC2 instan
 
 I will be creating a JSON IAM Policy that will deny cration and deletion of tags of the production EC2 instance and allow all actions on EC2 instances as a general rule.
 
-Here's the video to the implementation of the project:
-
+Here's the video that demonstrates Cloud Security with AWS IAM:
+<p align="center">
+[![Output](https://img.youtube.com/vi/_gJljSBzNfY/0.jpg)]([(https://youtu.be/_gJljSBzNfY)])
+</p>
 
 ### AWS IAM
 AWS Identity and Access Management (IAM) is a web service that allows administrators to securely manage access to AWS resources and services.
